@@ -21,6 +21,10 @@ p stops.fetch(2)
 p stops.reverse
 #10 Print out all the stops using a for loop
 
+for stop in journey
+  p stop
+end
+
 #ask teacher if can help
 # station = stops[0]
 # next_stop = stops[1]
