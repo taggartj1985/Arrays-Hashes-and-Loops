@@ -21,19 +21,19 @@ p stops.fetch(2)
 p stops.reverse
 #10 Print out all the stops using a for loop
 
-for stop in journey
+for stop in stops
   p stop
 end
 
-#ask teacher if can help
-# station = stops[0]
-# next_stop = stops[1]
-# station_stop = 0
-# edinburgh_stop = 5
-# while (station_stop < edinburgh_stop)
-#   p " We are at #{station} Our next stop is #{next_stop}!"
-#   station_stop = station_stop + 1
-#   station = stops[+1]
-# end
-#
-# p "We can now visit the castle!"
+# #ask teacher if can help
+station = stops[0]
+next_stop = stops[1]
+station_stop = 0
+edinburgh_stop = 5
+while (station_stop < edinburgh_stop)
+  p " We are at #{station} Our next stop is #{next_stop}!"
+  station_stop = station_stop + 1
+  station = stops[+1]
+end
+
+p "We can now visit the castle!"
