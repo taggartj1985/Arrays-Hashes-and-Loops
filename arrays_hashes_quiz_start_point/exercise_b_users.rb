@@ -74,3 +74,15 @@ users ["Erik"][:home_town]="Edinburgh"
 users ["Erik"][:pets].push({:name =>"Fluffy",
 :species =>"dog"})
 # 10. Add another person to the users hash
+users["John"]=
+{  :twitter => "test",
+  :lottery_numbers => [3, 43, 25, 36, 19, 42],
+  :home_town => "Glasgow",
+  :pets => [
+{
+  :name => "spud",
+  :species => "dog"
+} ]
+}
+
+p users
