@@ -18,18 +18,18 @@ p stops.length
 p stops [2]
 p stops.fetch(2)
 #9. Reverse the positions of the stops in the array
-stops.insert(6, stops.delete_at(5))
+p stops.reverse
 #10 Print out all the stops using a for loop
 
 #ask teacher if can help
-station = stops[0]
-next_stop = stops[1]
-station_stop = 0
-edinburgh_stop = 5
-while (station_stop < edinburgh_stop)
-  p " We are at #{station} Our next stop is #{next_stop}!"
-  station_stop = station_stop + 1
-  station = stops[+1]
-end
-
-p "We can now visit the castle!"
+# station = stops[0]
+# next_stop = stops[1]
+# station_stop = 0
+# edinburgh_stop = 5
+# while (station_stop < edinburgh_stop)
+#   p " We are at #{station} Our next stop is #{next_stop}!"
+#   station_stop = station_stop + 1
+#   station = stops[+1]
+# end
+#
+# p "We can now visit the castle!"
